@@ -36,42 +36,13 @@
                 </div>
             </div>
             <div class="inner cover">
-                <form role="form">
-                    <div class="row">
-                        <div class="span6">
-                            <label class="col-xs-2" for="input_first_name">First Name</label>
-                            <div class="col-xs-10 space">
-                                <input type="text" class="form-control" id="input_first_name" placeholder="First Name">
-                            </div>
-                        </div>
-                    </div>
 
-                    <div class="row">
-                        <div class="span6">
-                            <label class="col-xs-2" for="input_last_name">Last Name</label>
-                            <div class="col-xs-10 space">
-                                <input type="text" class="form-control" id="input_last_name" placeholder="Last Name">
-                            </div>
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="span6">
-                        <label class="col-xs-3" for="number">Phone number</label>
-                        <div class="col-xs-9">
-                            <input type="tel" class="form-control" id="input_phone" placeholder="Phone">
-                        </div>
-                            </div>
-                        <div class="col-xs-3 pull-right">
-                        <label class="label_check" for="group">Group?</label>
-                        <input type="checkbox"  name="group" id="group">
-
-                            </div>
-
-                    </div>
                     <div>
-                        <input type="submit" class="btn btn-lg btn-default"  id="submit" value="Add contact" />
+                        <button class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal">
+                            No contact found, add a contact
+                        </button>
                     </div>
-                </form>
+
                 <ul id="numbers"></ul>
 <!--                <p class="lead">-->
 <!--                    <a href="#" class="btn btn-lg btn-default">Learn more</a>-->
@@ -79,8 +50,71 @@
             </div>
             <div class="mastfoot">
                 <div class="inner">
-                    <p>Created by <a href="http://www.rdobrynin.net">RDobrynin.net</a></p>
+                    <p>Created by <a href="http://www.rdobrynin.net">R_Dobrynin.net</a></p>
                 </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Modal -->
+<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                <h4 class="modal-title" id="myModalLabel">Add contact</h4>
+            </div>
+            <div class="modal-body">
+                <div class="inner cover">
+                    <form role="form">
+                        <div class="row">
+                            <div class="span6">
+                                <label class="col-xs-2" for="input_first_name">First Name</label>
+                                <div class="col-xs-10 space">
+                                    <input type="text" class="form-control" id="input_first_name" placeholder="First Name">
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <div class="span6">
+                                <label class="col-xs-2" for="input_last_name">Last Name</label>
+                                <div class="col-xs-10 space">
+                                    <input type="text" class="form-control" id="input_last_name" placeholder="Last Name">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="span6">
+                                <label class="col-xs-3" for="number">Phone number</label>
+                                <div class="col-xs-9 space">
+                                    <input type="tel" class="form-control" id="input_phone" placeholder="Phone">
+                                </div>
+
+                                <label class="col-xs-3  space" for="select">Group</label>
+                                <div class="col-xs-6 pull-right space">
+                                    <select class="form-control" id="select">
+                                        <option value="one">Personal</option>
+                                        <option value="two">Business</option>
+                                        <option value="three">Others</option>
+                                    </select>
+                                </div>
+
+                            </div>
+                            <div>
+                                <button class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal">
+                                    Add contact
+                                </button>
+                            </div>
+                    </form>
+                    <ul id="numbers"></ul>
+                    <!--                <p class="lead">-->
+                    <!--                    <a href="#" class="btn btn-lg btn-default">Learn more</a>-->
+                    <!--                </p>-->
+                </div>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-inverse" data-dismiss="modal">Close</button>
             </div>
         </div>
     </div>
