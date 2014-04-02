@@ -30,7 +30,7 @@
                 <div class="inner">
                     <h3 class="masthead-brand">Address book - Test project</h3>
                     <ul class="nav masthead-nav">
-                        <li class="active"><a href="#">Home</a></li>
+                        <li class="active"><a href="#">Address Book</a></li>
                         <li><a href="#">About</a></li>
                         <li><a href="#">Help</a></li>
                     </ul>
@@ -58,5 +58,6 @@
 <!-- Placed at the end of the document so the pages load faster -->
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
 <script src="js/bootstrap.min.js"></script>
+<script src="js/script.js"></script>
 </body>
 </html>
