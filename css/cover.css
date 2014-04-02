@@ -19,6 +19,9 @@ a:hover {
     border: 1px solid #fff;
 }
 
+.space {
+    margin: 0 0 15px 0;
+}
 
 /*
  * Base structure
@@ -95,10 +98,10 @@ body {
 
 @media (min-width: 768px) {
     .masthead-brand {
-        float: left;
+
     }
     .masthead-nav {
-        float: right;
+
     }
 }
 
