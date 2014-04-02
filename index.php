@@ -7,15 +7,11 @@
     <meta name="description" content="">
     <meta name="author" content="">
     <!--    <link rel="shortcut icon" href="../../assets/ico/favicon.ico">-->
-
     <title>Test project</title>
-
     <!-- Bootstrap core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
-
     <!-- Custom styles for this template -->
     <link href="css/cover.css" rel="stylesheet">
-
     <!-- Just for debugging purposes. Don't actually copy this line! -->
     <!--[if lt IE 9]>
     <script src="js/ie8-responsive-file-warning.js"></script><![endif]-->
@@ -26,9 +22,7 @@
     <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
 </head>
-
 <body>
-
 <div class="site-wrapper">
     <div class="site-wrapper-inner">
         <div class="cover-container">
@@ -44,7 +38,6 @@
             </div>
             <div class="inner cover">
                 <h1 class="cover-heading">Cover your page.</h1>
-
                 <p class="lead">Cover is a one-page template for building simple and beautiful home pages. Download,
                     edit the text, and add your own fullscreen background photo to make it your own.</p>
                 <p class="lead">
