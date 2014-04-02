@@ -45,6 +45,7 @@
                             </div>
                         </div>
                     </div>
+
                     <div class="row">
                         <div class="span6">
                             <label class="col-xs-2" for="input_last_name">Last Name</label>
