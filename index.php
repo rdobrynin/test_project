@@ -34,11 +34,11 @@
         <div class="cover-container">
             <div class="masthead clearfix">
                 <div class="inner">
-                    <h3 class="masthead-brand">Cover</h3>
+                    <h3 class="masthead-brand">Address book - Test project</h3>
                     <ul class="nav masthead-nav">
                         <li class="active"><a href="#">Home</a></li>
-                        <li><a href="#">Features</a></li>
-                        <li><a href="#">Contact</a></li>
+                        <li><a href="#">About</a></li>
+                        <li><a href="#">Help</a></li>
                     </ul>
                 </div>
             </div>
@@ -53,7 +53,7 @@
             </div>
             <div class="mastfoot">
                 <div class="inner">
-                    <p>Created <a href="http://www.rdobrynin.net">RDobrynin</a>.</p>
+                    <p>Created <a href="http://www.rdobrynin.net">RDobrynin.net</a></p>
                 </div>
             </div>
         </div>
