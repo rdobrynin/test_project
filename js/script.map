@@ -1,0 +1,10 @@
+{
+  "version": 3,
+  "file": "script.js",
+  "sourceRoot": "",
+  "sources": [
+    "script.coffee"
+  ],
+  "names": [],
+  "mappings": ";AAAA;AAAA,MAAA,iBAAA;;AAAA,EAAA,GAAA,GAAM,EAAN,CAAA;;AAAA,EACA,OAAA,GAAU,UADV,CAAA;;AAIA,EAAA,IAAG,GAAA,GAAK,EAAR;AACE,IAAA,KAAA,CAAM,GAAN,CAAA,CADF;GAJA;;AAAA,EAOA,GAAA,GAAM,GAPN,CAAA;AAAA"
+}
