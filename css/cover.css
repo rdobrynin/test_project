@@ -20,12 +20,30 @@ a:hover {
 }
 
 .space {
-    margin: 0 0 15px 0;
+    margin: 0 0 20px 0;
 }
 
+
+
+#group {
+    margin-top: 15px;
+    margin-bottom: 15px;
+    float: right;
+}
+
+
+.label_check {
+    padding-right: 5px;
+    padding-top: 20px;
+}
 /*
  * Base structure
  */
+
+p {
+
+    text-align: center;
+}
 
 html,
 body {
@@ -116,6 +134,7 @@ body {
 .cover .btn-lg {
     padding: 10px 20px;
     font-weight: bold;
+    width: 100%;
 }
 
 

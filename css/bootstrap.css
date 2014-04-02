@@ -388,9 +388,7 @@ hr {
   border: 0;
 }
 
-p {
-  margin: 0 0 10px;
-}
+
 
 .lead {
   margin-bottom: 20px;
@@ -416,6 +414,22 @@ cite {
 
 .text-muted {
   color: #999999;
+}
+
+input[type="checkbox"] {
+    width: 28px;
+    height: 28px;
+    background: #333;
+    margin: 20px auto;
+
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    border-radius: 50px;
+    position: relative;
+
+    -webkit-box-shadow: inset 0px 1px 1px rgba(0,0,0,0.5), 0px 1px 0px rgba(255,255,255,0.2);
+    -moz-box-shadow: inset 0px 1px 1px rgba(0,0,0,0.5), 0px 1px 0px rgba(255,255,255,0.2);
+    box-shadow: inset 0px 1px 1px rgba(0,0,0,0.5), 0px 1px 0px rgba(255,255,255,0.2);
 }
 
 .text-primary {

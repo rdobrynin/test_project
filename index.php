@@ -9,7 +9,7 @@
     <!--    <link rel="shortcut icon" href="../../assets/ico/favicon.ico">-->
     <title>Test project</title>
     <!-- Bootstrap core CSS -->
-    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/bootstrap.css" rel="stylesheet">
     <!-- Custom styles for this template -->
     <link href="css/cover.css" rel="stylesheet">
     <!-- Just for debugging purposes. Don't actually copy this line! -->
@@ -36,42 +36,40 @@
                 </div>
             </div>
             <div class="inner cover">
-<!--                <form action="#" method="POST">-->
-<!--                    <label for="name">Name:</label>-->
-<!--                    <input type="text" name="name" id="name" required autofocus />-->
-<!--                    <label for="number">Number</label>-->
-<!--                    <input tpe="tel" name="number" id="number" required />-->
-<!--                    <label for="friend">Is he a friend?</label>-->
-<!--                    <input type="checkbox" name="friend" id="friend">-->
-<!--                    <input type="submit" class="btn btn-lg btn-default"  id="submit" value="Add" />-->
-<!--                </form>-->
                 <form role="form">
-
                     <div class="row">
                         <div class="span6">
-                            <label class="col-xs-4" for="name">Name</label>
-                            <div class="col-xs-6 space">
-                                <input type="text" class="form-control" id="input_name" placeholder="Name">
+                            <label class="col-xs-2" for="input_first_name">First Name</label>
+                            <div class="col-xs-10 space">
+                                <input type="text" class="form-control" id="input_first_name" placeholder="First Name">
                             </div>
                         </div>
                     </div>
                     <div class="row">
-                        <label class="col-xs-4" for="number">Phone number</label>
-                        <div class="col-xs-6">
+                        <div class="span6">
+                            <label class="col-xs-2" for="input_last_name">Last Name</label>
+                            <div class="col-xs-10 space">
+                                <input type="text" class="form-control" id="input_last_name" placeholder="Last Name">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="span6">
+                        <label class="col-xs-3" for="number">Phone number</label>
+                        <div class="col-xs-9">
                             <input type="tel" class="form-control" id="input_phone" placeholder="Phone">
                         </div>
-                        <div class="col-xs-6 pull-right">
-                        <label for="group">Group?</label>
-                        <input type="checkbox" name="group" id="group">
+                            </div>
+                        <div class="col-xs-3 pull-right">
+                        <label class="label_check" for="group">Group?</label>
+                        <input type="checkbox"  name="group" id="group">
+
                             </div>
 
                     </div>
-                    <div class="col-xs-6 pull-right">
-                        <input type="submit" class="btn btn-lg btn-default"  id="submit" value="Add" />
+                    <div>
+                        <input type="submit" class="btn btn-lg btn-default"  id="submit" value="Add contact" />
                     </div>
-
-
-
                 </form>
                 <ul id="numbers"></ul>
 <!--                <p class="lead">-->
@@ -80,7 +78,7 @@
             </div>
             <div class="mastfoot">
                 <div class="inner">
-                    <p>Created <a href="http://www.rdobrynin.net">RDobrynin.net</a></p>
+                    <p>Created by <a href="http://www.rdobrynin.net">RDobrynin.net</a></p>
                 </div>
             </div>
         </div>
