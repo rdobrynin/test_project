@@ -30,7 +30,7 @@
                 <div class="inner">
                     <ul class="nav masthead-nav">
                         <li class="active"><a data-toggle="modal" href="#" data-target="#addContact">Add contact</a></li>
-                        <li><a href="#">Help</a></li>
+                        <li id="clear_storage"><a href="#">Clear Storage</a></li>
                     </ul>
                 </div>
             </div>
