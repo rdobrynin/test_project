@@ -14,6 +14,10 @@ a:hover {
 }
 
 
+ul {
+    list-style: none;
+}
+
 /* Custom default button */
 .btn-default,
 .btn-default:hover,
@@ -35,6 +39,40 @@ a:hover {
     float: right;
 }
 
+.input-group {
+    margin-top: 10px;
+}
+
+table {
+    border: 1px solid #999999;
+}
+
+.filter {
+    position: relative;
+    top: 8px;
+    left:10px;
+    margin-right: 5px;
+}
+
+.check {
+    margin: 10px 0 10px 0;
+}
+
+
+
+.table-responsive {
+display: block;
+    overflow-x: hidden !important;
+}
+
+td {
+    border: 1px solid #999999;
+}
+
+th {
+    border: 1px solid #999999;
+    text-align: center;
+}
 
 .label_check {
     padding-right: 5px;
@@ -195,4 +233,18 @@ form {
     .cover-container {
         width: 700px;
     }
+}
+
+.personal_group {
+    color:red;
+}
+.business_group {
+    color: aquamarine;
+}
+.others_group {
+    color:green;
+}
+
+li {
+    text-align: left;
 }
